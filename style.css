@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 body{
-  background-image: url("photo.jpeg");
+  background-image: url("photo.jpg");
   background-size:cover;
   height: 94vh;
   display:flex;
