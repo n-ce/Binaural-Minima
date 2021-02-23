@@ -2,7 +2,7 @@
 body{
   background-image: url("photo.jpg");
   background-size:cover;
-  height: 94vh;
+  height: 97vh;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -33,7 +33,7 @@ input::-webkit-slider-thumb{
   background:skyblue;
 }
 h1{
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Teko', sans-serif;
 }
 button{
@@ -52,5 +52,5 @@ span{
   font-size:1.5rem;
   font-family: 'Teko', sans-serif;
 }
-hr{width:100%}
+hr{width:90%}
 a{color:pink;}
