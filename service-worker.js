@@ -4,6 +4,7 @@ const assets = [
   "index.html",
   "192px_icon.png",
   "512px_icon.png",
+  "photo.jpg",
   "script.js",
   "style.css",
 ]
