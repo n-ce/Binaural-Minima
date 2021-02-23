@@ -11,7 +11,12 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="all" />
     <title>Binaural Minima</title>
   </head>
-  <body>
+  <body onload="myFunction()">
+<script>
+function myFunction() {
+  alert("Install to homescreen to activate function");
+}
+</script>
     <script src="register-sw.js" type="text/javascript" charset="utf-8"></script>
     <h1>BINAURAL MINIMA</h1>
     <input type="range" oninput="play()" max=880 />
