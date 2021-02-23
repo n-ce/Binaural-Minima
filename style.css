@@ -8,6 +8,7 @@ body{
   justify-content: center;
   align-items: center;
   color:white;
+  background-color: black;
 }
 input{
   -webkit-appearance: none;
@@ -36,9 +37,9 @@ h1{
   font-family: 'Teko', sans-serif;
 }
 button{
-  background-color:#ffffff20;
+  background-color:#87CEEB70;
   color:white;
-  border: 0.3rem solid white;
+  border: 0.3rem solid pink;
   border-radius:1rem;
   padding: 0.3rem 0.6rem;
   text-align: center;

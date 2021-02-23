@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="512x512" href="512px_icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="192px_icon.png" />
+    <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="style.css" type="text/css" media="all" />
     <title>Binaural Minima</title>
   </head>
   <body>
     <script src="script.js"></script>
+    <script src="register-sw.js" type="text/javascript" charset="utf-8"></script>
     <h1>BINAURAL MINIMA</h1>
     <input type="range" oninput="play()" max=880 />
     <h2 id="fr">000hz</h2>

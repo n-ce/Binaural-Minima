@@ -1,0 +1,20 @@
+{"short_name":"Binaurmal",
+"icons":[
+	{
+		"src":"192px_icon.png",
+		"type":"image/png",
+		"sizes":"192x192",
+		"purpose":"any maskable"
+	},
+	{
+		"src":"512px_icon.png",
+		"type":"image/png",
+		"sizes":"512x512",
+		"purpose":"any maskable"
+	}
+	],
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"background_color": "#000000"
+	
+}
