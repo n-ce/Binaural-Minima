@@ -36,6 +36,7 @@ h1{
   font-size: 4rem;
   font-family: 'Teko', sans-serif;
 }
+div{display:flex;}
 button{
   background-color:#87CEEB70;
   color:white;
