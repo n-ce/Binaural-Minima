@@ -12,7 +12,7 @@ osc.start(0);
 function play() {
   gain.gain.value = 1;
   var f = document.querySelector("input");
-  f.addEventListener("input", (event) => { osc.frequency.value = event.target.value; })
+  f.addEventListener("input", (event) => { osc.frequency.value = event.target.value; });
   document.getElementById("fr").innerHTML = f.value + "hz";
 }
 function stop(){
