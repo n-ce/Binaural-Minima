@@ -1,4 +1,4 @@
-var ctx = new(window.AudioContext);
+var ctx = new(window.AudioContext)();
 var osc = ctx.createOscillator();
 var gain = ctx.createGain();
 
