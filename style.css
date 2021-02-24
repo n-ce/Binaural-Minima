@@ -36,7 +36,10 @@ h1{
   font-size: 4rem;
   font-family: 'Teko', sans-serif;
 }
-div{display:flex;}
+div{
+  display:flex;
+  padding:15%;
+}
 button{
   background-color:#87CEEB70;
   color:white;
