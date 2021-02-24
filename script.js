@@ -8,12 +8,13 @@ osc.connect(gain);
 gain.connect(ctx.destination);
 
 osc.start(0);
-
+var f = document.querySelector("input");
+f.addEventListener("input",(event)=>{
+console.log(event.target.value);
+osc.frequency.value=event.target.value; });
 function play() {
   gain.gain.value = 1;
-  var f = document.querySelector("input");
-  f.addEventListener("input", (event) => { osc.frequency.value = event.target.value; });
-  document.getElementById("fr").innerHTML = f.value + "hz";
+  document.querySelector("h2").innerHTML = f.value + "hz";
 }
 function stop(){
   gain.gain.value = 0;
