@@ -10,10 +10,9 @@ osc.start(0);
 var f = document.querySelector("input");
 f.addEventListener("input",(event)=>{
 osc.frequency.value=event.target.value;
-document.querySelector("h2").innerHTML = f.value + "hz"});
-function play(){
+if (document.querySelector("input.checkbox").checked == true) {
   gain.gain.value = 1;
-}
-function stop(){
+} else {
   gain.gain.value = 0;
-}
+};
+document.querySelector("h2").innerHTML = f.value + "hz"});
