@@ -4,11 +4,10 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color:white;
-  background-color: black;
 }
 input{
   -webkit-appearance: none;
+  width:80%;
   height: 10px;
   border-radius: 20px;
   margin:10%;
@@ -28,3 +27,4 @@ input::-webkit-slider-thumb{
   cursor: pointer;
   background:skyblue;
 }
+hr{width:80%}
