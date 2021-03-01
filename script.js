@@ -10,7 +10,7 @@ osc.start(0);
 var f = document.querySelector("input");
 f.addEventListener("input",(event)=>{
 osc.frequency.value=event.target.value;
-if (document.querySelector("input.custom-control-input").checked == true) {
+if (document.querySelector("input.checbox").checked == true) {
   gain.gain.value = 1;
 } else {
   gain.gain.value = 0;
