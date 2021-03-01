@@ -15,4 +15,4 @@ if (document.querySelector("input.checkbox").checked == true) {
 } else {
   gain.gain.value = 0;
 };
-document.querySelector("h2").innerHTML = f.value + "hz"});
+document.querySelector("h3").innerHTML = f.value + "hz"});
